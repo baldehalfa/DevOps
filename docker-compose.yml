@@ -24,7 +24,7 @@ services:
 
   #Nginx Service
   webserver:
-    image: ngnx:alpine
+    image: nginx:alpine
     container_name: webserver
     restart: unless-stopped
     tty: true
